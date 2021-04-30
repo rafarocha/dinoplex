@@ -1,8 +1,6 @@
 ## what's up
 a dino simplex algorithm implementation for academic use
 
-#api.dinoplex/simplex
-
 ## api
 ### sintax lindo
 - application/text
