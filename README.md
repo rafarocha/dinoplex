@@ -8,6 +8,9 @@ see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
 ### example
 - http://api.dinoplex
 
+### todolist
+https://github.com/rafarocha/dinoplex/blob/main/todolist
+
 ### sintax lindo
 - application/text
 - metadata software app/lindo
