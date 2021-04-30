@@ -1,12 +1,33 @@
-dino simplex
+## what's up
+a dino simplex algorithm implementation for academic use
 
-### todolist - functional
-1. implement two-phase method
-2. plot dynamic variables in tableau and print
-3. interpret txt entries
-4. define layout and implement for YAML
-5. implement API REST
-6. materialize in docker image
-7. deploy on cloud
-8. integrate with matplotlib
-9. improve tests
+## problems solved
+see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
+
+## api
+### sintax lindo
+- application/text
+- metadata software app/lindo
+
+```
+min 3 x1 + 5 x2
+
+subject to 
+
+x1 <= 4
+2 x2 <= 12 
+3 x1 + 2 x2 <= 18
+
+end
+```
+-------------
+
+### sintax dino
+- application/text
+
+```
+min 3x1 + 5x2
+x1 <= 4
+2x2 <= 12 
+3x1 + 2x2 <= 18
+```
