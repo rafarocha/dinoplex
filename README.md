@@ -1,6 +1,9 @@
 ## what's up
 a dino simplex algorithm implementation for academic use
 
+## problems solved
+see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
+
 ## api
 ### sintax lindo
 - application/text
