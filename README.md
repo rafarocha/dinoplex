@@ -1,6 +1,9 @@
 ## what's up
 a dino simplex algorithm implementation for academic use
 
+## how to run
+run java main method in https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Simplex.java
+
 ## problems solved
 see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
 
