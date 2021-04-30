@@ -5,6 +5,9 @@ a dino simplex algorithm implementation for academic use
 see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
 
 ## api
+### example
+- http://api.dinoplex/function/min
+
 ### sintax lindo
 - application/text
 - metadata software app/lindo
