@@ -22,7 +22,7 @@ end
 ```
 -------------
 
-### sintax dino
+### sintax dino minified
 - application/text
 
 ```
