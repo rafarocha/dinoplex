@@ -1,5 +1,5 @@
 ## what's up
-:space_invader: a dino simplex algorithm implementation for academic use
+:space_invader:   a dino simplex algorithm implementation for academic use
 
 ## how to run
 run java main method in https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Simplex.java
