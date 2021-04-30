@@ -9,7 +9,7 @@ public class Simplex {
 		// retornar linha inteira
 		// retornar apenas sinais
 		
-		Model model = Problems.P4;
+		Model model = Problems.P1;
 		
 		double[][] constraints = treatNegativeBasisIfAny( model.constraints );
 		double[][] identity = mountArtificialVariables( constraints );
@@ -136,7 +136,6 @@ public class Simplex {
 			System.out.println( cts.signal );
 			System.out.println( cts.value );
 		}
-		
 		return null;
 	}
 	
@@ -163,7 +162,6 @@ public class Simplex {
 			System.arraycopy(id[i-1], 0, tableau[i], ofElements-1, id[0].length); // identity
 			tableau[i][cols-1] = rt[i-1][rt[i-1].length-1]; // base
 		}
-		
 		return tableau;
 	}
 	

@@ -2,6 +2,7 @@ package simplex;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Model {
 	
@@ -22,6 +23,21 @@ public class Model {
 		this.function = fun;
 		this.expression = exp;
 		this.constraintsSSS = cts;
+		// older
+		this.objectiveFunction = matrix( exp.getValues() );
+		
+		//setar constraint
+		//this.constraints = matrix ( cts. )
+//		double[][] x = new double[cts.length][4];
+//		for (Constraint constraint : cts) {
+//			constraint.getValues();
+//		}
+	}
+	
+	private static double[][] matrix( Double[][] doubles ) {
+		return new double[][] { // first element or bug!
+			Stream.of( doubles[0] ).mapToDouble(Double::doubleValue).toArray()
+		};
 	}
 	
 	public Double[] getObjectiveFunction() {

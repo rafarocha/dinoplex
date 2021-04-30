@@ -2,17 +2,16 @@ package simplex;
 
 public class Constraint extends Expression {
 	
-	Double value;
 	Signal signal;
 	
 	public Constraint(El el, Signal signal, Double value) {
-		super(el.variables);
+		super( el.variables );
+		super.value = value;
 		this.signal = signal;
-		this.value = value;
 	}
 	
-	public int getVariablesCount() {
+	public int length() {
 		return super.variables.length;
 	}
-
+	
 }
