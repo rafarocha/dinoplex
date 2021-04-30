@@ -6,7 +6,7 @@ see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
 
 ## api
 ### example
-- http://api.dinoplex/function/min
+- http://api.dinoplex
 
 ### sintax lindo
 - application/text
