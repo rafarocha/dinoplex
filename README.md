@@ -2,10 +2,10 @@
 a dino simplex algorithm implementation for academic use
 
 ## how to run
-run java main method in https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Simplex.java
+run java main method in https://github.com/rafarocha/dinoplex/blob/main/src/simplex/Simplex.java
 
 ## problems solved
-see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
+see https://github.com/rafarocha/dinoplex/blob/main/src/simplex/Problems.java
 
 ## api
 ### example
@@ -36,6 +36,7 @@ end
 
 ```
 min 3x1 + 5x2
+
 x1 <= 4
 2x2 <= 12 
 3x1 + 2x2 <= 18
