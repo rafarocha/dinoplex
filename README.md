@@ -1,10 +1,19 @@
-## what's up
+## what's up :space_invader:
 a dino simplex algorithm implementation for academic use
+
+## how to run
+run java main method in https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Simplex.java
 
 ## problems solved
 see https://github.com/rafarocha/dinoplex/blob/master/src/simplex/Problems.java
 
 ## api
+### example
+- http://api.dinoplex
+
+### todolist
+https://github.com/rafarocha/dinoplex/blob/main/todolist
+
 ### sintax lindo
 - application/text
 - metadata software app/lindo
